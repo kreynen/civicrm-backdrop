@@ -62,7 +62,7 @@ function civicrm_requirements($phase) {
     $civicrm_path = substr_replace($civicrm_path, '', $pos, strlen($civicrm_path));
   }
 
-  $url = $base_url . '/' . $civicrm_path . 'install/index.php';
+  $url = $base_url . '/modules/civicrm/install/index.php';
 
   $settings = glob('sites/*/civicrm.settings.php');
   $problems = array();

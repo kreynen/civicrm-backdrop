@@ -161,7 +161,7 @@ function civicrm_menu() {
       'title' => 'CiviCRM',
       'access callback' => TRUE,
       'page callback' => 'civicrm_invoke',
-      'type' => 4,
+      'type' => MENU_CALLBACK,
       'weight' => 0,
     ),
     // administration section for civicrm integration modules.
